@@ -1,8 +1,17 @@
 {
     "name": "Pleasures",
     "clients": ["twitter"],
-    "modelProvider": "openai",
+    "modelProvider": "venice",
     "settings": {
+        "secrets":{
+            "TWITTER_USERNAME": "pleasuresxbt",
+            "TWITTER_PASSWORD": "Jessie110569",
+            "TWITTER_EMAIL": "mpjparungao@gmail.com",
+            "TWITTER_TARGET_USERS": "BIIIGAINS,Henry_Boyd,w1ldmage,MagusWazir,Jihoz_Axie,NardAndSoda,nixeniego",
+            "TWITTER_SEARCH_ENABLE": "TRUE",
+            "ENABLE_ACTION_PROCESSING": "TRUE",
+            "MAX_ACTIONS_PROCESSING": "20"
+        },
         "voice": {
             "model": "en_PH-young-medium"
         }
