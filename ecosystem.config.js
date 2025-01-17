@@ -11,7 +11,7 @@ module.exports = {
         NODE_ENV: "production"
       },
       // Add your character argument
-      args: ["start", "--character=characters/defaiza.character.json, characters/pleasures.character.json"],
+      args: ["start", "--character=characters/defaiza.character.json"],
       // Optional but recommended settings
       autorestart: true,
       watch: false,
